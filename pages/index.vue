@@ -16,7 +16,7 @@
               </h2>
             </div>
             <div class="column has-text-centered">
-              <img src="~/assets/images/20210530183248828.gif" alt="" />
+              <img src="~/assets/images/main_image.png" alt="" style="width: 240px; height: 240px;">
             </div>
           </div>
         </div>

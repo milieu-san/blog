@@ -4,13 +4,20 @@
       <NuxtLink to="/" class="navbar-item has-text-black">
         <i class="snes-jp-logo navbar-item" />
       </NuxtLink>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="burgerItems">
-        <span aria-hidden="true" />
-        <span aria-hidden="true" />
-        <span aria-hidden="true" />
+      <a
+        role="button"
+        class="navbar-burger"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="burgerItems"
+        @click.prevent="isOpen = !isOpen"
+      >
+        <span aria-hidden="true" style="height: 2px" />
+        <span aria-hidden="true" style="height: 2px" />
+        <span aria-hidden="true" style="height: 2px" />
       </a>
     </div>
-    <div id="burgerItems" class="navbar-menu">
+    <div id="burgerItems" class="navbar-menu" :class="{'is-active': isOpen}">
       <div class="navbar-start">
         <NuxtLink to="/" class="navbar-item has-text-dark">
           Home
@@ -61,6 +68,11 @@
 
 <script>
 export default {
-  name: 'NavigationHeader'
+  name: 'NavigationHeader',
+  data () {
+    return {
+      isOpen: false
+    }
+  }
 }
 </script>
