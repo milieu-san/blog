@@ -11,9 +11,6 @@
               <h2 class="subtitle mt-1">
                 とくべつな ことは ない
               </h2>
-              <h2 class="subtitle">
-                ありのまま かく
-              </h2>
             </div>
             <div class="column has-text-centered">
               <img src="~/assets/images/miball0202-5.png" alt="logo-image" class="main-logo">

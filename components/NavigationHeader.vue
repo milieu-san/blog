@@ -23,8 +23,8 @@
           Home
         </NuxtLink>
 
-        <NuxtLink to="/blogs" class="navbar-item has-text-dark">
-          Blogs
+        <NuxtLink to="/blog" class="navbar-item has-text-dark">
+          Blog
         </NuxtLink>
 
         <NuxtLink to="/about" class="navbar-item has-text-dark">
@@ -38,9 +38,6 @@
           <div class="navbar-dropdown">
             <a class="navbar-item">
               Development
-            </a>
-            <a class="navbar-item">
-              Scenario
             </a>
             <a class="navbar-item">
               Music
