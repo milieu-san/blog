@@ -16,7 +16,7 @@
               </h2>
             </div>
             <div class="column has-text-centered">
-              <img src="~/assets/images/main_image.png" alt="" style="width: 240px; height: 240px;">
+              <img src="~/assets/images/miball0202-5.png" alt="logo-image" class="main-logo">
             </div>
           </div>
         </div>
@@ -28,3 +28,10 @@
 <script>
 export default {}
 </script>
+
+<style scoped>
+.main-logo {
+  width: 240px;
+  height: 240px;
+}
+</style>

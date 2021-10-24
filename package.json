@@ -34,5 +34,6 @@
     "sass": "~1.32.13",
     "sass-loader": "10",
     "vue-jest": "^3.0.4"
-  }
+  },
+  "license": "UNLICENSED"
 }

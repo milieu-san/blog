@@ -2,7 +2,7 @@
   <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <NuxtLink to="/" class="navbar-item has-text-black">
-        <i class="snes-jp-logo navbar-item" />
+        <img src="~/assets/images/miball0202-1.png" alt="logo-image" width="30">
       </NuxtLink>
       <a
         role="button"
