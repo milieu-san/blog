@@ -30,24 +30,6 @@
         <NuxtLink to="/about" class="navbar-item has-text-dark">
           About
         </NuxtLink>
-
-        <div class="navbar-item has-dropdown is-hoverable has-text-dark">
-          <a class="navbar-link">
-            Works
-          </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item">
-              Development
-            </a>
-            <a class="navbar-item">
-              Music
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item">
-              Contact
-            </a>
-          </div>
-        </div>
       </div>
 
       <div class="navbar-end">
