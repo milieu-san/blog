@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/miball0202-blog/favicon.ico' }
     ]
   },
 
@@ -47,6 +47,10 @@ export default {
   content: {
     liveEdit: false,
     fullTextSearchFields: ['title', 'description', 'tags', 'text']
+  },
+
+  router: {
+    base: '/miball0202-blog/'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
