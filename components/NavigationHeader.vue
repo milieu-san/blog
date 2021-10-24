@@ -55,12 +55,12 @@
       </div>
 
       <div class="navbar-end">
-        <div class="navbar-item">
+        <a href="https://twitter.com/SeMiyabi" target="_blank" rel="noopener" class="navbar-item">
           <i class="nes-icon twitter" />
-        </div>
-        <div class="navbar-item">
+        </a>
+        <a href="https://github.com/miball0202" target="_blank" rel="noopener" class="navbar-item">
           <i class="nes-icon github" />
-        </div>
+        </a>
       </div>
     </div>
   </nav>

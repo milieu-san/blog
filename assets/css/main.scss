@@ -11,6 +11,14 @@
   opacity: 0;
 }
 
-html {
+* {
   cursor: auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+.nes-btn {
+  cursor: pointer;
 }
