@@ -4,14 +4,14 @@
       <div class="hero-body">
         <div class="container is-max-desktop">
           <p class="title">
-            {{ page.title }}
+            {{ article.title }}
           </p>
         </div>
       </div>
     </div>
     <div class="section pt-1">
       <div class="container is-max-desktop">
-        <nuxt-content :document="page" />
+        <nuxt-content :document="article" />
       </div>
     </div>
   </div>
@@ -20,10 +20,10 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const page = await $content('blogs', params.id).fetch()
+    const article = await $content('articles', params.id).fetch()
 
     return {
-      page
+      article
     }
   }
 }

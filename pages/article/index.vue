@@ -20,8 +20,8 @@
       <div class="columns">
         <div class="column is-three-fifths">
           <div class="nes-field is-flex">
-            <input id="search_box" v-model="query" type="text" class="nes-input" @keypress.enter="fetchBlogs">
-            <span type="button" class="nes-btn is-primary" @click.prevent="fetchBlogs">
+            <input id="search_box" v-model="query" type="text" class="nes-input" @keypress.enter="fetchArticles">
+            <span type="button" class="nes-btn is-primary" @click.prevent="fetchArticles">
               Search
             </span>
           </div>
@@ -30,19 +30,19 @@
       <div v-if="isLoading">
         <p>しょうしょう おまちください。</p>
       </div>
-      <div v-else-if="blogs.length > 0" class="columns">
+      <div v-else-if="articles.length > 0" class="columns">
         <div class="column">
           <div
-            v-for="blog in blogs"
-            :key="blog.id"
+            v-for="article in articles"
+            :key="article.id"
             class="nes-container with-title is-rounded mt-5 pb-0"
           >
-            <NuxtLink :to="`/blog/${blog.id}`" class="title">
-              {{ blog.title }}
+            <NuxtLink :to="`/article/${article.id}`" class="title">
+              {{ article.title }}
             </NuxtLink>
             <div class="columns">
-              <NuxtLink :to="`/blog/${blog.id}`" class="column is-three-quarters has-text-black">
-                {{ blog.description }}
+              <NuxtLink :to="`/article/${article.id}`" class="column is-three-quarters has-text-black">
+                {{ article.description }}
               </NuxtLink>
               <div class="column is-one-quarter has-text-centered">
                 <i class="nes-jp-logo" />
@@ -50,11 +50,11 @@
             </div>
             <div class="columns">
               <div class="column is-one-quarter py-0">
-                <span>{{ blog.createdAt | dateStr }}</span>
+                <span>{{ article.createdAt | dateStr }}</span>
               </div>
               <div class="column py-0">
                 <span class="ml-2">
-                  {{ blog.tags }}
+                  {{ article.tags }}
                 </span>
               </div>
             </div>
@@ -79,18 +79,18 @@ export default {
   },
   data () {
     return {
-      blogs: [],
+      articles: [],
       query: '',
       isLoading: false
     }
   },
   created () {
-    this.fetchBlogs()
+    this.fetchArticles()
   },
   methods: {
-    async fetchBlogs () {
+    async fetchArticles () {
       this.isLoading = true
-      this.blogs = await this.$content('blogs')
+      this.articles = await this.$content('articles')
         .where({ public: true })
         .sortBy('createdAt', 'desc')
         .search(this.query)

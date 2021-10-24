@@ -23,7 +23,7 @@
           Home
         </NuxtLink>
 
-        <NuxtLink to="/blog" class="navbar-item has-text-dark">
+        <NuxtLink to="/article" class="navbar-item has-text-dark">
           Blog
         </NuxtLink>
 
