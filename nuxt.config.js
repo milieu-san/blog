@@ -45,7 +45,8 @@ export default {
   ],
 
   content: {
-    liveEdit: false
+    liveEdit: false,
+    fullTextSearchFields: ['title', 'description', 'tags', 'text']
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

@@ -1,10 +1,10 @@
 <template>
-  <div class="container is-fluid">
+  <div class="container is-max-desktop">
     <div class="hero">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-centered">
-            <div class="column is-half">
+            <div class="column">
               <p class="title">
                 About Me
               </p>
@@ -25,10 +25,10 @@
     <div class="section is-halfheight pt-1">
       <div class="container">
         <div class="columns is-centered">
-          <div class="column is-half">
+          <div class="column">
             <div class="nes-container is-rounded with-title">
               <p class="title">
-                miball0202
+                みやび / miball0202
               </p>
               <div class="columns">
                 <div class="column">
