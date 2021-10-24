@@ -46,7 +46,7 @@
 
 <script>
 export default {
-  name: 'NavigationHeader',
+  name: 'TheNavigationHeader',
   data () {
     return {
       isOpen: false
