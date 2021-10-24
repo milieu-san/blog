@@ -34,27 +34,25 @@
                 <div class="column">
                   <p>がいよう</p>
                   <p>1993ねんに かんとうの ひがしの ほうに うまれた おとこ</p>
-                  <p>うぇぶかいはつ という ちからを わがものに しようと している</p>
-                  <p>さいきんの おしごとは ねいてぃぶあぷり を つくる こと</p>
-                  <p>みてわかる とおり げーむが すき</p>
+                  <p>おしごとは ウェブアプリや ネイティブアプリを つくること</p>
+                  <p>さいきんは ReactNative という ちからを わがものに しようと している</p>
+                  <p>みてわかる とおり ゲームが すき</p>
                 </div>
               </div>
               <div class="columns">
                 <div class="column is-half">
                   <p>ジョブ</p>
                   <ul class="nes-list is-circle">
-                    <li>Web Developer</li>
-                    <li>Scenario Writer</li>
-                    <li>Music Composer</li>
+                    <li>App/Web Developer</li>
                   </ul>
                 </div>
                 <div class="column is-half">
-                  <p>スキル (Lv. = 年)</p>
+                  <p>スキル</p>
                   <ul class="nes-list is-circle">
-                    <li>Ruby on Rails Lv.2</li>
-                    <li>Vue.js Lv.2</li>
-                    <li>ReactNative Lv.1</li>
-                    <li>MySQL Lv.2</li>
+                    <li>ReactNative</li>
+                    <li>Ruby on Rails</li>
+                    <li>Vue.js</li>
+                    <li>MySQL</li>
                   </ul>
                 </div>
               </div>

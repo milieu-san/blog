@@ -27,16 +27,15 @@
           Blogs
         </NuxtLink>
 
+        <NuxtLink to="/about" class="navbar-item has-text-dark">
+          About
+        </NuxtLink>
+
         <div class="navbar-item has-dropdown is-hoverable has-text-dark">
           <a class="navbar-link">
             Works
           </a>
-
           <div class="navbar-dropdown">
-            <NuxtLink to="/about" class="navbar-item has-text-dark">
-              About
-            </NuxtLink>
-            <hr class="navbar-divider">
             <a class="navbar-item">
               Development
             </a>
