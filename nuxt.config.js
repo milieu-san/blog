@@ -19,6 +19,7 @@ export default {
   css: [
     'bulma',
     'nes.css/css/nes.min.css',
+    '@fortawesome/fontawesome-free/css/all.css',
     '~assets/css/main.scss'
   ],
 

@@ -1,10 +1,17 @@
 <template>
   <div class="container blog-content">
     <div class="hero">
-      <div class="hero-body">
+      <div class="hero-body pb-0">
         <div class="container is-max-desktop">
+          <p>公開日: {{ article.publishedAt }}</p>
           <p class="title">
             {{ article.title }}
+          </p>
+          <p>
+            <span class="icon">
+              <i class="fas fa-tags" />
+            </span>
+            {{ article.tags }}
           </p>
         </div>
       </div>
@@ -30,19 +37,32 @@ export default {
 </script>
 
 <style scoped>
+
+a {
+  text-decoration: none;
+}
+
+.icon-link::before {
+  font-size: medium;
+  font-weight: 900;
+  content: '\f0c1';
+  padding-right: 20px;
+  color: lightskyblue;
+}
+
 .blog-content * {
-  font-family: "Source Code Pro", Monaco, monospace;
+  font-family: "Source Code Pro", Monaco, monospace, "Font Awesome 5 Free";
 }
 
 .nuxt-content ul {
   margin: 1em 0;
-  padding-left: 40px;
+  padding-left: 20px;
   list-style-type: disc;
 }
 
 .nuxt-content ol {
   margin: 1em 0;
-  padding-left: 40px;
+  padding-left: 20px;
   list-style-type: decimal;
 }
 
@@ -54,6 +74,8 @@ export default {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.1em;
 }
 
 .nuxt-content h2 {
@@ -64,6 +86,8 @@ export default {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.1em;
 }
 
 .nuxt-content h3 {

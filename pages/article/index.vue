@@ -91,7 +91,7 @@ export default {
     async fetchArticles () {
       this.isLoading = true
       this.articles = await this.$content('articles')
-        .where({ public: true })
+        .where({ isPublic: true })
         .sortBy('createdAt', 'desc')
         .search(this.query)
         .fetch()
