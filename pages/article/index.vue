@@ -44,13 +44,11 @@
               <NuxtLink :to="`/article/${article.id}`" class="column is-three-quarters has-text-black">
                 {{ article.description }}
               </NuxtLink>
-              <div class="column is-one-quarter has-text-centered">
-                <i class="nes-jp-logo" />
-              </div>
+              <div class="column is-one-quarter has-text-centered" />
             </div>
             <div class="columns">
               <div class="column is-one-quarter py-0">
-                <span>{{ article.createdAt | dateStr }}</span>
+                <span>{{ article.publishedAt }}</span>
               </div>
               <div class="column py-0">
                 <span class="ml-2">
@@ -92,7 +90,7 @@ export default {
       this.isLoading = true
       this.articles = await this.$content('articles')
         .where({ isPublic: true })
-        .sortBy('createdAt', 'desc')
+        .sortBy('publishedAt', 'desc')
         .search(this.query)
         .fetch()
       this.isLoading = false
