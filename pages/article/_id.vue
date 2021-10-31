@@ -29,6 +29,22 @@ export default {
   async asyncData ({ $content, params }) {
     const article = await $content('articles', params.id).fetch()
 
+    const id = article.id
+
+    const setCorrectPathOnATag = (obj) => {
+      obj.children.forEach((child) => {
+        if (child.tag === 'a') {
+          child.props.href = `/blog/article/${id}${child.props.href}`
+        }
+
+        if (child.children) {
+          setCorrectPathOnATag(child)
+        }
+      })
+    }
+
+    setCorrectPathOnATag(article.body)
+
     return {
       article
     }
