@@ -31,6 +31,10 @@ export default {
 
     const id = article.id
 
+    // FIXME
+    //  URL/Link in href is broken.
+    //  Find out correct way `nuxt-content` or `nuxt` provide to resolve.
+    //  https://github.com/miball0202/blog/issues/2
     const setCorrectPathOnATag = (obj) => {
       obj.children.forEach((child) => {
         if (child.tag === 'a') {
