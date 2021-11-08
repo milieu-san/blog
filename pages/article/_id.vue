@@ -37,7 +37,7 @@ export default {
     //  https://github.com/miball0202/blog/issues/2
     const setCorrectPathOnATag = (obj) => {
       obj.children.forEach((child) => {
-        if (child.tag === 'a') {
+        if (child.tag === 'a' && child.props.href.startsWith('#')) {
           child.props.href = `/blog/article/${id}${child.props.href}`
         }
 
