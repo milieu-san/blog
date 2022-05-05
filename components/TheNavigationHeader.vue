@@ -12,9 +12,9 @@
         data-target="burgerItems"
         @click.prevent="isOpen = !isOpen"
       >
-        <span aria-hidden="true" style="height: 2px" />
-        <span aria-hidden="true" style="height: 2px" />
-        <span aria-hidden="true" style="height: 2px" />
+        <span aria-hidden="true" class="hidden-item" />
+        <span aria-hidden="true" class="hidden-item" />
+        <span aria-hidden="true" class="hidden-item" />
       </a>
     </div>
     <div id="burgerItems" class="navbar-menu" :class="{'is-active': isOpen}">
@@ -54,3 +54,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.hidden-item {
+  height: 2px;
+}
+</style>

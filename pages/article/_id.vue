@@ -91,8 +91,8 @@ a {
   font-size: 2em;
   -webkit-margin-before: 0.67em;
   -webkit-margin-after: 0.67em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
   font-weight: bold;
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.1em;
@@ -103,8 +103,8 @@ a {
   font-size: 1.5em;
   -webkit-margin-before: 0.83em;
   -webkit-margin-after: 0.83em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
   font-weight: bold;
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.1em;
@@ -115,8 +115,8 @@ a {
   font-size: 1.17em;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
   font-weight: bold;
 }
 
@@ -124,8 +124,8 @@ a {
   display: block;
   -webkit-margin-before: 1.33em;
   -webkit-margin-after: 1.33em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
   font-weight: bold;
 }
 
@@ -134,8 +134,8 @@ a {
   font-size: 0.83em;
   -webkit-margin-before: 1.67em;
   -webkit-margin-after: 1.67em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
   font-weight: bold;
 }
 
@@ -144,8 +144,8 @@ a {
   font-size: 0.67em;
   -webkit-margin-before: 2.33em;
   -webkit-margin-after: 2.33em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
   font-weight: bold;
 }
 </style>
