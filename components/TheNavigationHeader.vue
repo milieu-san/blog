@@ -2,7 +2,7 @@
   <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <NuxtLink to="/" class="navbar-item has-text-black">
-        <img src="~/assets/images/miball0202-1.png" alt="logo-image" width="30">
+        <img src="~/assets/images/milieu-san-1.png" alt="logo-image" width="30">
       </NuxtLink>
       <a
         role="button"
@@ -33,10 +33,10 @@
       </div>
 
       <div class="navbar-end">
-        <a href="https://twitter.com/miball0202" target="_blank" rel="noopener" class="navbar-item">
+        <a href="https://twitter.com/milieu-san" target="_blank" rel="noopener" class="navbar-item">
           <i class="nes-icon twitter" />
         </a>
-        <a href="https://github.com/miball0202" target="_blank" rel="noopener" class="navbar-item">
+        <a href="https://github.com/milieu-san" target="_blank" rel="noopener" class="navbar-item">
           <i class="nes-icon github" />
         </a>
       </div>

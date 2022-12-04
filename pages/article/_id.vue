@@ -34,7 +34,7 @@ export default {
     // FIXME
     //  URL/Link in href is broken.
     //  Find out correct way `nuxt-content` or `nuxt` provide to resolve.
-    //  https://github.com/miball0202/blog/issues/2
+    //  https://github.com/milieu-san/blog/issues/2
     const setCorrectPathOnATag = (obj) => {
       obj.children.forEach((child) => {
         if (child.tag === 'a' && child.props.href.startsWith('#')) {

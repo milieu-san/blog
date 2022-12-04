@@ -28,7 +28,7 @@
           <div class="column">
             <div class="nes-container is-rounded with-title">
               <p class="title">
-                みやび / miball0202
+                みやび / milieu-san
               </p>
               <div class="columns">
                 <div class="column">

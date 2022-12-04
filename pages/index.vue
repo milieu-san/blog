@@ -13,7 +13,7 @@
               </h2>
             </div>
             <div class="column has-text-centered">
-              <img src="~/assets/images/miball0202-5.png" alt="logo-image" class="main-logo">
+              <img src="~/assets/images/milieu-san-5.png" alt="logo-image" class="main-logo">
             </div>
           </div>
         </div>
